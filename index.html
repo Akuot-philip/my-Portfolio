@@ -29,7 +29,7 @@
                 <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
                 <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
                 <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Porfoilio</a></li>
-                <li><a href="good.html"><i class="fa fa-comments"></i>Contact</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
 
             </ul>
         </div>
@@ -496,31 +496,32 @@
                     <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
                     <h4 class="contact-sub-title padd-15">I'M VERY RESPOSIVE TO MESSAGE</h4>
                     <!-- contact form -->
+                    <form action="https://formsubmit.co/akuotphilipp@gmail.com" method="POST">
                     <div class="row">
                         <div class="contact-form padd-15">
                             <div class="row">
                                 <div class="form-item col-6 padd-15">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Name">
+                                        <input type="text" class="form-control" name="_name"placeholder="Name" required>
                                     </div>
                                 </div>
                                 <div class="form-item col-6 padd-15">
                                     <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email">
+                                        <input type="email" class="form-control" name="_email" placeholder="Email" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-item col-12 padd-15">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Subject">
+                                        <input type="text" class="form-control" name="_subject" placeholder="Subject" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-item col-12 padd-15">
                                     <div class="form-group">
-                                        <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                                        <textarea name="" class="form-control" id="" name="_message" placeholder="Message"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -533,6 +534,7 @@
                         </div>
                     </div>
                 </div>
+            </form>
             </section>
             <!---Contact section end-->
 
